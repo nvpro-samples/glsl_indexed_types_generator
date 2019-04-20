@@ -1,7 +1,7 @@
 # GLSL Generator for DescriptorSet Indexed Types
 
 ## About
-This project serves as proof of concept how to simplify the usage of `VK_EXT_descriptor_indexing` and `GL_EXT_nonuniform_qualifier` within GLSL.
+This project serves as proof of concept how to simplify the usage of `VK_EXT_descriptor_indexing` and `GL_EXT_nonuniform_qualifier` within GLSL (typically used in combination with `VK_NV_ray_tracing`).
 A script generates structures and function overloads to hide the code for indexing descriptor sets of samplers and textures.
 
 Regular GLSL
